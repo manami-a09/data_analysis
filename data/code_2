@@ -1,7 +1,9 @@
 #ステップ1：Excelファイルの読み込み
 
+
 # ExcelファイルをDataFrameとして読み込む
 # 'engine='openpyxl'' を指定することで、より安定してExcelファイルを読み込めます。
+#ファイルのパスはcode_0で確認
 file_path = '/content/sample.xlsx'
 try:
     df = pd.read_excel(file_path, engine='openpyxl')
