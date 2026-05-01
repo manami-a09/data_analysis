@@ -1,6 +1,5 @@
 #ステップ1：Excelファイルの読み込み
 
-
 # ExcelファイルをDataFrameとして読み込む
 # 'engine='openpyxl'' を指定することで、より安定してExcelファイルを読み込めます。
 #ファイルのパスはcode_0で確認
